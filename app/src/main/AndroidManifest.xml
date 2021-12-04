@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TapasAplication">
         <activity
+            android:name=".presentation.Ut06Ex06Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
