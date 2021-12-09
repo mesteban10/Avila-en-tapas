@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/drawable/ic_like_heart.xml" value="0.1" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/activity_tapa.xml" value="0.25" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/fragment_list_tapas.xml" value="0.15" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/fragment_tapas_list.xml" value="0.5" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/view_item_tapas.xml" value="0.33" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/layout/view_tapas_toolbar.xml" value="0.67" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/TapasAplication/app/src/main/res/menu/fragment_tapas_menu.xml" value="2.0" />
       </map>
     </option>
   </component>

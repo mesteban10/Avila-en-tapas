@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_list"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryDarkColor"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/view_custom_toolbar"
+        layout="@layout/view_tapas_toolbar" />
+
+    <FrameLayout
+        android:id="@+id/wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:layout_constraintTop_toBottomOf="@id/view_custom_toolbar"
+        android:visibility="visible"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_users_form"
+            android:layout_width="match_parent"
+            card_view:layout_constraintTop_toBottomOf="@id/view_custom_toolbar"
+            android:layout_height="wrap_content"
+            tools:listitem="" />
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

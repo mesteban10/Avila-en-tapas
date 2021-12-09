@@ -6,7 +6,7 @@ import com.mesteban.tapasaplication.data.remote.RemoteDataSource
 
 class MockDataSource : RemoteDataSource {
 
-    override fun getTapas(): Result<List<TapaModel>> {
+    override suspend fun getTapas(): Result<List<TapaModel>> {
         return Result.success(mutableListOf(
                 TapaModel("1",
                         "Bocadillo de Calamares",
@@ -29,7 +29,7 @@ class MockDataSource : RemoteDataSource {
         ))
     }
 
-    override fun getTapa(tapaId: String): Result<TapaModel> {
+    override suspend fun getTapa(tapaId: String): Result<TapaModel> {
         return Result.success(
                 TapaModel("1",
                         "Bocadillo de Calamares",

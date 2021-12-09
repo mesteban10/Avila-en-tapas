@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tamaño del texto -->
+    <dimen name="text_size_big">28sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+    <!-- Dimensiones layout ppal-->
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_end">10dp</dimen>
+    <dimen name="margin_start">10dp</dimen>
+
+    <!-- Dimensiones offer_text-->
+    <dimen name="margin_start_offer">6dp</dimen>
+    <dimen name="margin_top_offer">6dp</dimen>
+    <dimen name="padding_left_offer">20dp</dimen>
+    <dimen name="padding_right_offer">20dp</dimen>
+
+    <dimen name="padding_general">4dp</dimen>
+    <dimen name="padding_form">35dp</dimen>
+
+    <dimen name="padding_review">6dp</dimen>
+
+    <dimen name="margin_bottom_time_del">10dp</dimen>
+    <!-- Tamaño miniaturas -->
+    <dimen name="thumbnails_width">30dp</dimen>
+    <dimen name="thumbnails_height">50dp</dimen>
+
+    <!-- Tamaño imagenes -->
+    <dimen name="image_width">60dp</dimen>
+    <dimen name="image2_height">150dp</dimen>
+    <dimen name="image2_width">120dp</dimen>
+
+
+    <!-- Tamaños en sp -->
+    <dimen name="text_size_medium">12sp</dimen>
+
+    <!-- Tamaño icono check y download-->
+    <dimen name="icon_width">20dp</dimen>
+    <dimen name="icon_height">20dp</dimen>
+
+    <!-- Tamaño iconos barra de navegacion-->
+    <dimen name="icon_nav_width">60dp</dimen>
+    <dimen name="icon_nav_height">60dp</dimen>
+
+    <!-- Espacio entre los iconos de navegacion-->
+    <dimen name="icon_nav_space">40dp</dimen>
+
+    <dimen name="margin_start_autodescargas">10dp</dimen>
+
+    <dimen name="margin_info">10dp</dimen>
+
+    <dimen name="margin_start_text_info">10dp</dimen>
+
+    <dimen name="vineyard_image_height">160dp</dimen>
+
+    <dimen name="padding_text_avisos">10dp</dimen>
+
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="corner_radious">4dp</dimen>
+    <!-- Espacio entre imagenes Net2-->
+    <dimen name="image_left_margin">10dp</dimen>
+
+    <dimen name="width_text_card">340dp</dimen>
+    <!-- Dimensiones del incono Netflix de la cabecera -->
+    <dimen name="netflix_width">40dp</dimen>
+    <dimen name="netflix_height">50dp</dimen>
+    <dimen name="netflix_margin_end">40dp</dimen>
+
+    <!-- Dimensiones Texto cabecera-->
+    <dimen name="margin_end_text_header">30dp</dimen>
+
+    <!-- Dimensiones listado de formularios de usuarios -->
+    <dimen name="padding_card_view_form">10dp</dimen>
+    <dimen name="padding_all_text_view_form">5dp</dimen>
+
+
+
+    <dimen name="padding_elements_details_alert">10dp</dimen>
+
+
+    <dimen name="padding_top_details_title_alert">10dp</dimen>
+    <dimen name="margin_start_details_titles_alert">10dp</dimen>
+
+    <dimen name="margin_separator_details_alert">10dp</dimen>
+    <dimen name="height_separator_details_alert">1dp</dimen>
+
+    <dimen name="margin_top_table_files_detail_alert">20dp</dimen>
+
+    <dimen name="width_title_detail_alerts">340dp</dimen>
+
+    <!-- Form -->
+    <dimen name="wmargin_top_button_save_form">50dp</dimen>
+    <dimen name="padding_button_save">100dp</dimen>
+</resources>

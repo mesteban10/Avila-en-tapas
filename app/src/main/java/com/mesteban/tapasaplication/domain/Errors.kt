@@ -5,6 +5,7 @@ sealed class Failure : Throwable() {
     object NetworkConnectionError : Failure()
     object ServerError : Failure()
     object ApiError: Failure()
+    object FileError: Failure()
 
     /** * Extend this class for feature specific failures.*/
     abstract class FeatureFailure : Failure()

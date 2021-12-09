@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".presentation.Ut06Ex06Activity">
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/view_custom_toolbar"
+        layout="@layout/view_tapas_toolbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
